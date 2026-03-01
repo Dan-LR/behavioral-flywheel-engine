@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Behavioral Flywheel Engine™ (BFE)"
+authors:
+  - family-names: "Liang"
+    given-names: "Lang Rou"
+version: "Public Anchor"
+doi: "10.17605/OSF.IO/FQBEU"
+url: "https://dan-lr.github.io/behavioral-flywheel-engine/"
+message: "Public citation anchor only. Non-operational. No offer. No license."
