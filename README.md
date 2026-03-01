@@ -1,20 +1,16 @@
-# Behavioral Flywheel Engine
+# Behavioral Flywheel Engine™ (BFE)
 
-This repository preserves the search presence of the term Behavioral Flywheel Engine.
+Public citation anchor only. Non-operational. No offer. No license.
 
-Main reference:
+Primary OSF/DOI record (White Paper — Structural Definition & Rights Boundary):  
+10.17605/OSF.IO/FQBEU
+
+Public Structural Boundary Notice (Version of Record):  
+10.17605/OSF.IO/A9HFC
+
+Public Anchor Index (GitHub Pages):  
 https://dan-lr.github.io/behavioral-flywheel-engine/
 
-Definition:
-A behavioral flywheel engine is a system that observes user behavior, generates insights, and triggers interventions that reinforce engagement, retention, and growth.
-
-Keywords:
-behavioral flywheel engine
-behavior flywheel
-growth flywheel
-ai growth loop
-behavior loop system
-
-Purpose:
-This page exists so the concept "Behavioral Flywheel Engine" remains searchable and indexable on Google.
+Repository (mirror / archival context):  
+https://github.com/Dan-LR/behavioral-flywheel-engine
 
