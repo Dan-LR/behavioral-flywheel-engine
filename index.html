@@ -14,40 +14,35 @@
   </script>
 
   <title>Behavioral Flywheel Engine™ (BFE) — Public Citation Anchor</title>
-  <meta name="description" content="Public citation anchor only. Non-operational. No offer. No license. Primary records: OSF/DOI archive + verifiable integrity records (SHA-256 + RFC3161 timestamp proofs)." />
+  <meta name="description" content="Public citation anchor only. Non-operational. No offer. No license. Verifiable public records: PDF + SHA-256 + RFC3161 timestamp proofs + OSF/DOI anchors." />
   <link rel="canonical" href="https://dan-lr.github.io/behavioral-flywheel-engine/" />
 
   <style>
-    :root { color-scheme: light; }
-    body {
-      max-width: 860px;
+    body{
+      max-width: 900px;
       margin: 28px auto;
       padding: 0 16px;
       line-height: 1.55;
       font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
     }
-    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .note { font-size: 0.98em; opacity: 0.95; }
-    .small { font-size: 0.92em; opacity: 0.88; }
-    .pill {
-      display: inline-block;
+    code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      word-break: break-all;
+    }
+    hr{ margin: 22px 0; opacity: 0.35; }
+    .note{ opacity: 0.92; }
+    .small{ font-size: 0.92em; opacity: 0.86; }
+    .box{
       border: 1px solid rgba(0,0,0,0.12);
-      padding: 2px 10px;
-      border-radius: 999px;
-      font-size: 0.9em;
-      margin: 6px 6px 0 0;
-    }
-    hr { margin: 22px 0; opacity: 0.35; }
-    ul { padding-left: 18px; }
-    li { margin: 8px 0; }
-    .block {
-      border: 1px solid rgba(0,0,0,0.10);
-      border-radius: 10px;
+      border-radius: 12px;
       padding: 14px 14px;
-      margin: 14px 0;
       background: rgba(0,0,0,0.02);
+      margin: 12px 0;
     }
-    .k { font-weight: 700; }
+    .k{ font-weight: 700; }
+    .item{ margin: 14px 0; }
+    .item .title{ font-weight: 800; }
+    .meta{ margin-top: 6px; }
   </style>
 </head>
 
@@ -56,66 +51,54 @@
 
   <p class="note"><strong>Public citation anchor only.</strong> Non-operational. No offer. No license.</p>
 
-  <div class="pill">citation-only</div>
-  <div class="pill">pointer-only</div>
-  <div class="pill">non-contractual</div>
-  <div class="pill">non-operational</div>
-  <div class="pill">no reliance</div>
-
   <hr>
 
-  <h2>Primary Records</h2>
+  <h2>Public Records &amp; Integrity Proofs</h2>
+  <p class="note">
+    All hashes: <strong>SHA-256</strong> · Timestamp format: <strong>RFC3161</strong> (<code>.tsr</code>)
+  </p>
 
-  <div class="block">
-    <p class="k">OSF / DOI archive record</p>
-    <ul>
-      <li>
-        <strong>White Paper (Primary Structural Definition)</strong>:
-        <a href="https://osf.io/fqbeu/overview">10.17605/OSF.IO/FQBEU</a>
-      </li>
-      <li>
-        <strong>Public Structural Boundary Notice (Version of Record)</strong>:
-        <a href="https://osf.io/a9hfc/">10.17605/OSF.IO/A9HFC</a>
-      </li>
-    </ul>
-
+  <div class="box">
     <p class="k">Repository (mirror / archival context)</p>
     <p>
       <a href="https://github.com/Dan-LR/behavioral-flywheel-engine">github.com/Dan-LR/behavioral-flywheel-engine</a>
+      &nbsp;·&nbsp;
+      <a href="records/">records/</a>
+      &nbsp;·&nbsp;
+      <a href="records/README.md">records/README.md</a>
     </p>
-  </div>
 
-  <h2>Integrity &amp; Timestamp Records</h2>
-  <p class="note">Verifiable integrity records: <strong>SHA-256</strong> hashes + <strong>RFC3161</strong> timestamp proofs (<code>.tsr</code>).</p>
+    <div class="item">
+      <div class="title">BFE — Behavioral Flywheel Engine (V1.2b)</div>
+      <div class="meta">
+        PDF: <a href="records/BFE-Behavioral%20Flywheel%20EngineV1.2b.pdf">Download</a><br>
+        SHA-256: <code>9e0b2600b436f5f2b28ed020c949f4921f4426e5f1477b9cd8f632aead2ce2e9</code><br>
+        RFC3161 Timestamp Proof: <a href="records/BFE-V1.2b.tsr">BFE-V1.2b.tsr</a><br>
+        Project DOI: <code>10.17605/OSF.IO/FQBEU</code> &nbsp;(
+        <a href="https://osf.io/fqbeu/overview">OSF record</a> )
+      </div>
+    </div>
 
-  <div class="block">
-    <p class="k">Integrity index</p>
-    <ul>
-      <li><a href="records/">records/ (public integrity directory)</a></li>
-      <li><a href="records/README.md">records/README.md (integrity listing)</a></li>
-    </ul>
+    <div class="item">
+      <div class="title">BFE — Public Structural Boundary Notice (V1.0a)</div>
+      <div class="meta">
+        PDF: <a href="records/BFE-Public%20Structural%20Boundary%20Notice%20V1.0a.pdf">Download</a><br>
+        SHA-256: <code>cf7a889b7fc8a1fd3ab18988af46ec85c27e47f593195bd95b10831a76876fdf</code><br>
+        RFC3161 Timestamp Proof: <a href="records/BFE-Boundary-V1.0a.tsr">BFE-Boundary-V1.0a.tsr</a><br>
+        Project DOI: <code>10.17605/OSF.IO/A9HFC</code> &nbsp;(
+        <a href="https://osf.io/a9hfc/">OSF record</a> )
+      </div>
+    </div>
 
-    <p class="k">Direct record links</p>
-    <ul>
-      <li>
-        <strong>BFE — Behavioral Flywheel Engine (V1.2b)</strong>:
-        <a href="records/BFE-Behavioral%20Flywheel%20EngineV1.2b.pdf">PDF</a>
-        · <a href="records/BFE-V1.2b.tsr">RFC3161 .tsr</a>
-        · DOI: <code>10.17605/OSF.IO/FQBEU</code>
-      </li>
-      <li>
-        <strong>BFE — Public Structural Boundary Notice (V1.0a)</strong>:
-        <a href="records/BFE-Public%20Structural%20Boundary%20Notice%20V1.0a.pdf">PDF</a>
-        · <a href="records/BFE-Boundary-V1.0a.tsr">RFC3161 .tsr</a>
-        · DOI: <code>10.17605/OSF.IO/A9HFC</code>
-      </li>
-      <li>
-        <strong>Structural Problem Statement</strong>:
-        <a href="records/Structural%20Problem%20Statement.pdf">PDF</a>
-        · <a href="records/Structural-Problem-V1.tsr">RFC3161 .tsr</a>
-        · DOI: <code>10.17605/OSF.IO/P2ZYF</code>
-      </li>
-    </ul>
+    <div class="item">
+      <div class="title">Structural Problem Statement</div>
+      <div class="meta">
+        PDF: <a href="records/Structural%20Problem%20Statement.pdf">Download</a><br>
+        SHA-256: <code>8427c178b5487cdfc3845dc15a05f2ec93604516f2d1e0510e3de8bedb15be63</code><br>
+        RFC3161 Timestamp Proof: <a href="records/Structural-Problem-V1.tsr">Structural-Problem-V1.tsr</a><br>
+        Project DOI: <code>10.17605/OSF.IO/P2ZYF</code>
+      </div>
+    </div>
   </div>
 
   <hr>
